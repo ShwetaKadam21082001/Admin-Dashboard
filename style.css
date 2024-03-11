@@ -168,7 +168,7 @@ aside .close {
 
     /* +++++++++++++++++++++++++++ SIDEBAR +++++++++++++++++++++ */
 
-aside .sidebar {
+/* aside .sidebar {
     background: white;
     display: flex;
     flex-direction: column;
@@ -176,7 +176,13 @@ aside .sidebar {
     position: relative;
     top: 3rem;
 
-}
+} */
+
+aside .sidebar { 
+    background: var(--color-white); 
+    display: flex; flex-direction: column; 
+    height: 86vh; position: relative;  
+     top: 3rem; }
 
 aside h3{
     font-weight: 500;
