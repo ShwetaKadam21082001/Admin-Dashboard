@@ -141,22 +141,20 @@ b{
 }
 
 aside{
-    height: 100vh;   
+    height: 100vh;
+    background: white;
 }
-
 aside .top {
-    background: var(--color-white);
+    /* background: white; */
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 1.4rem;
-    height: 3.7rem;
 }
 
 aside .logo  {
     display: flex;
     gap: 0.8rem;
-    margin: 2rem;
 }
 
 aside .logo img {
@@ -171,12 +169,13 @@ aside .close {
     /* +++++++++++++++++++++++++++ SIDEBAR +++++++++++++++++++++ */
 
 aside .sidebar {
-    background: var(--color-white);
+    background: white;
     display: flex;
     flex-direction: column;
     height: 86vh;
     position: relative;
     top: 3rem;
+
 }
 
 aside h3{
