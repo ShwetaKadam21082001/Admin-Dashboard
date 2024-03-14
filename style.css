@@ -34,7 +34,6 @@
     --box-shadow: 0 2rem 3rem var(--color-light);
 }
 
-
 *{
     margin: 0;
     padding: 0;
@@ -141,18 +140,21 @@ b{
 }
 
 aside{
-    height: 100vh;
-    background: white;
+    height: 100vh; 
 }
+
 aside .top {
-    /* background: white; */
+    border-radius: 1.2rem;
+    background:var(--color-white);
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 1.4rem;
+    padding: 0.8rem;
 }
 
 aside .logo  {
+    margin-left: 2rem;
     display: flex;
     gap: 0.8rem;
 }
@@ -168,21 +170,16 @@ aside .close {
 
     /* +++++++++++++++++++++++++++ SIDEBAR +++++++++++++++++++++ */
 
-/* aside .sidebar {
-    background: white;
+aside .sidebar {
+    border-radius: 1.2rem;
+    background: var(--color-white);
     display: flex;
     flex-direction: column;
     height: 86vh;
     position: relative;
     top: 3rem;
 
-} */
-
-aside .sidebar { 
-    background: var(--color-white); 
-    display: flex; flex-direction: column; 
-    height: 86vh; position: relative;  
-     top: 3rem; }
+}
 
 aside h3{
     font-weight: 500;
@@ -705,20 +702,3 @@ main .recent-orders a{
      }
 
 } 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
